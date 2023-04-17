@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rima Avant Arte, 
+    Helvetica Neue, 
+    Helvetica, 
+    Arial, 
+    sans-serif;
+    letter-spacing: 3px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0 20px;
+    cursor: pointer;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+ul li:hover {
+    font-weight: 600;
+}
+
+.profile__icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column;
+    margin: 3em;
+}
+
+.intro h1 {
+    font-size: 3em;
+}
+
+.intro p {
+    font-size: 1.5rem;
+}
+
+.intro input {
+    width: 80%;
+    padding: 2em;
+    margin: 10px;
+}
+
+.intro label {
+    display: flex;
+    align-items: center;
+}
+
+.intro label button {
+    padding: 2em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.intro label button i {
+    align-items: center;
+}
+
+.article {
+    text-align: center;
+}
+
+.article h1 {
+    margin-top: 10px;
+}
+
+.article p {
+    margin-top: 10px;
+}
+
+.article button {
+    width: 20%;
+    padding: 1.3em;
+    margin-top: 10px;
+    border: none;
+    background-color: bisque;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
